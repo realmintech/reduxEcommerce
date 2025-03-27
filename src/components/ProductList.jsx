@@ -9,7 +9,7 @@ const ProductList = () => {
 
   return (
     <div className="p-6">
-      <h1 className="text-2xl font-bold mb-4">Product List</h1>
+      <h1 className="text-2xl font-bold mb-4">Ecommerce </h1>
       <Link to="/add-product" className="bg-green-700 text-white p-2 rounded cursor-pointer">
         Add Product
       </Link>
