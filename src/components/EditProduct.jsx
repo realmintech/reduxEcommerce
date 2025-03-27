@@ -23,7 +23,7 @@ const EditProduct = () => {
       <form onSubmit={handleSubmit} className="space-y-4">
         <input
           type="text"
-          className="border p-2 w-full"
+          className="border p-2 w-full rounded"
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
@@ -33,7 +33,7 @@ const EditProduct = () => {
           value={price}
           onChange={(e) => setPrice(e.target.value)} 
         />
-        <button type="submit" className="bg-green-700 p-2 rounded">
+        <button type="submit" className="bg-green-700 p-2 rounded text-white cursor-pointer" >
           Update Product
         </button>
       </form>

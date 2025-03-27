@@ -22,7 +22,7 @@ const AddProduct = () => {
         <input
           type="text"
           placeholder="Product Name"
-          className="border p-2 w-full"
+          className="border p-2 w-full rounded "
           value={name}
           onChange={(e) => setName(e.target.value)}
           required
@@ -30,12 +30,12 @@ const AddProduct = () => {
         <input
           type="number"
           placeholder="Price"
-          className="border p-2 w-full"
+          className="border p-2 w-full rounded "
           value={price}
           onChange={(e) => setPrice(e.target.value)}
           required
         />
-        <button type="submit" className="bg-green-500 text-white p-2 rounded">
+        <button type="submit" className="bg-green-700  p-2 rounded text-white cursor-pointer ">
           Add Product
         </button>
       </form>
